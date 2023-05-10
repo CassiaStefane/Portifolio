@@ -1,5 +1,5 @@
 .conteiner{
-    width: auto;;
+    width: auto;
     border-radius: 20px;
     margin: 20px;
     padding: 20px 0;
@@ -8,4 +8,11 @@
 .project{
     display: flex;
     justify-content: space-evenly;
+}
+.section{
+    width: auto;
+    height: 250px;
+    padding: 60px 80px 0;
+    background-image: url("../components/img/tinywow_change_bg_photo_22890079.png");
+    background-size: cover;
 }
