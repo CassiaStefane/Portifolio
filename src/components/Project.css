@@ -1,0 +1,11 @@
+.conteiner{
+    width: auto;;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px 0;
+    background-image: url('./img/pagina.jpg');
+}
+.project{
+    display: flex;
+    justify-content: space-evenly;
+}
