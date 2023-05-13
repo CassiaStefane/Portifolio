@@ -12,7 +12,6 @@
 .section{
     width: auto;
     height: 250px;
-    padding: 60px 80px 0;
-    background-image: url("../components/img/tinywow_change_bg_photo_22890079.png");
+    padding: 50px 0 0 80px;
     background-size: cover;
 }
