@@ -1,8 +1,12 @@
 .header{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-left: 10%;
 }
+.intro{
+    max-width: 600px;
+    max-height: 700px;
+}
 .foto{
-    width: 300px;
+    width: 200px;
 }
