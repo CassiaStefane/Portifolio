@@ -3,15 +3,16 @@
     border-radius: 20px;
     margin: 20px;
     padding: 20px 0;
-    background-image: url('./img/pagina.jpg');
+    
 }
 .project{
     display: flex;
     justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.258);
+    border-radius: 20px;
 }
 .section{
     width: auto;
     height: 250px;
     padding: 50px 0 0 80px;
-    background-size: cover;
 }

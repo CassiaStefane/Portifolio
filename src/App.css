@@ -4,5 +4,6 @@
 }
 body{
   font-family: 'Montserrat', sans-serif;
-  background-image: url("./components/img/background.jpg");
+  background-image: url("./components/img/background.png");
+  background-size: cover;
 }
