@@ -14,3 +14,8 @@
 .nav-bar > h1{
     margin-right: 50px;
 }
+@media (max-width:640px){
+    .nav-bar > h1{
+        margin:15px;
+    }
+}
