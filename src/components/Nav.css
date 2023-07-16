@@ -14,8 +14,20 @@
 .nav-bar > h1{
     margin-right: 50px;
 }
+.font-awesome{
+    display: none;
+}
 @media (max-width:640px){
     .nav-bar > h1{
         margin:15px;
+    }
+}
+@media (max-width:450px){
+    .nav-bar{
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        background-color: white;
+        width: 100%;
     }
 }
