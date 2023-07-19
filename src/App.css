@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap');
+html{
+  min-width: fit-content;
+}
 .App {
   text-align: center;
 }

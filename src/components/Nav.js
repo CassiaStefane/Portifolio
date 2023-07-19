@@ -1,4 +1,5 @@
 import './Nav.css';
+import { VscMenu } from "react-icons/vsc";
 
 function Nav(){
     return(
@@ -6,10 +7,13 @@ function Nav(){
              <div className={"logo"}>
                 <h1>LOGO</h1>
             </div>
+            <div className='VscMenu'>
+                <VscMenu/>
+            </div>
             <div className={"nav-bar"}>
-                <h1>Home</h1>
-                <h1>About</h1>
-                <h1>Project</h1>
+                <a href='#projetos.id'>Home</a>
+                <a>About</a>
+                <a>Project</a>
             </div>
         </div>
     )
