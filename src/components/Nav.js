@@ -7,13 +7,13 @@ function Nav(){
              <div className={"logo"}>
                 <h1>LOGO</h1>
             </div>
-            <div className='VscMenu'>
+            <div className={'VscMenu'} >
                 <VscMenu/>
             </div>
             <div className={"nav-bar"}>
-                <a href='#projetos.id'>Home</a>
-                <a>About</a>
-                <a>Project</a>
+                <a href='#header.id'>Home</a>
+                <a href='#projetos.id'>Project</a>
+                <a href='#projetos.id'>Contact</a>
             </div>
         </div>
     )

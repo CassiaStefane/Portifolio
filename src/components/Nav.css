@@ -29,10 +29,15 @@
 }
 @media (max-width:450px){
     .nav-bar{
+        display: flex;
         flex-direction: column;
-        display: block;
         position: absolute;
+        display: none;
         background-color: white;
         min-width: 500px;
+        height: 200px;
+    }
+    .VscMenu{
+        display: block;
     }
 }
