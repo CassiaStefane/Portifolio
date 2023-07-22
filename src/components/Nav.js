@@ -4,8 +4,12 @@ import { VscClose } from "react-icons/vsc";
 
 function Nav(){
     const handleClick = ()=>{
-        const element = document.querySelector('#vsMenu');
-        element.setAttribute('id', 'display');
+        const element = document.querySelector('#display');
+        element.style.display = 'flex';
+    }
+    const handleClose = ()=>{
+        const element = document.querySelector('#display');
+        element.style.display = 'none';
     }
     return(
         <div className={'Nav'}>
@@ -15,8 +19,8 @@ function Nav(){
             <div className={'VscMenu'} onClick={handleClick}>
                 <VscMenu/>
             </div>
-            <div className={"nav-bar"} id={'vsMenu'}>
-                <VscClose className={'VscClose'}/>
+            <div className={"nav-bar"} id={'display'}>
+                <VscClose className={'VscClose'} id={'vsClose'} onClick={handleClose}/>
                 <a href='#header.id'>Home</a>
                 <a href='#projetos.id'>Project</a>
                 <a href='#projetos.id'>Contact</a>
