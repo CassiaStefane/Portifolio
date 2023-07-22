@@ -22,6 +22,9 @@
 .VscMenu{
     display: none;
 }
+.VscClose{
+    display: none;
+}
 @media (max-width:640px){
     .nav-bar > a{
         margin:15px;
@@ -45,7 +48,8 @@
         font-size: large;
     }
     .VscClose{
-        margin-left: 25em ;
+        display: flex;
+        margin-left: 25em;
         margin-top: 15px;
         font-size: x-large;
     }
