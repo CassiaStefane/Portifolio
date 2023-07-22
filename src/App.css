@@ -7,6 +7,6 @@ html{
 }
 body{
   font-family: 'Montserrat', sans-serif;
-  background-image: url("./components/img/background.png");
+  background-color: #FCF0D9;
   background-size: cover;
 }
