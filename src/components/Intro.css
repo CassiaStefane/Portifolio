@@ -2,19 +2,36 @@
     display: flex;
     justify-content: space-evenly;
     margin-left: 5%;
-    margin-top: 10%;
+    margin-top: 5%;
     height: 450px;
     font-size: large;
 }
 .intro{
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
     max-width: 600px;
 }
 .foto{
     width: 300px;
     height: 300px;
     margin-right: 8%;
+}
+hr{
+    width: 100%;
+}
+.icons{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: xx-large;
+}
+.icons :nth-child(n){
+    border: 1.5px solid black;
+    border-radius: 30px;
+    padding: 10px;
 }
 .button{
     background-color: black;
@@ -40,11 +57,13 @@
         display: none;
     }
     .header{
-        max-width: 350px;
+        max-width: 400px;
         margin: auto;
         padding: 50px;
     }
-    
+    .button{
+        width: 300px;
+    }
 }
 @media (max-width:450px){
     .button{
