@@ -1,8 +1,7 @@
 .header{
     display: flex;
     justify-content: space-evenly;
-    margin-left: 5%;
-    margin-top: 5%;
+    margin: 6% 0 10% 5%;
     height: 450px;
     font-size: large;
 }
@@ -32,6 +31,12 @@ hr{
     border: 1.5px solid black;
     border-radius: 30px;
     padding: 10px;
+    margin: 5px;
+}
+.icons :nth-child(n):hover{
+    width: 60px;
+    border: 2px solid green;
+    color: green;
 }
 .button{
     background-color: black;
