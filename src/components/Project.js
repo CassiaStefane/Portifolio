@@ -1,4 +1,5 @@
 import './Project.css';
+import foto from './img/nana osaki icon.jpg';
 import { PiArrowElbowRightDownBold } from "react-icons/pi";
 
 function Project(){
@@ -9,16 +10,25 @@ function Project(){
             <hr></hr>
             <div className={'project'} id={'projetos.id'}>
                 <div className={'section'}>
+                    <img className='projetos' src={foto}></img>
+                    <div className={'info'}>
                     <h4>hi</h4>
                     <p>hdth nvdt yksx dxhnvd cyktdxh</p>
+                    </div>
                 </div>
                 <div className={'section'}>
-                    <h4>hi</h4>
-                    <p>hdth nvdt yksx dxhnvd cyktdxh</p>
+                    <img className='projetos' src={foto}></img>
+                    <div className={'info'}>
+                        <h4>hi</h4>
+                        <p>hdth nvdt yksx dxhnvd cyktdxh</p>
+                    </div>
                 </div>
                 <div className={'section'}>
+                    <img className='projetos' src={foto}></img>
+                    <div className={'info'}>
                     <h4>hi</h4>
                     <p>hdth nvdt yksx dxhnvd cyktdxh</p>
+                    </div>
                 </div>
             </div>
         </div>
