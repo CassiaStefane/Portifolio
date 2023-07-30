@@ -10,26 +10,34 @@ function Project(){
             <hr></hr>
             <div className={'project'} id={'projetos.id'}>
                 <div className={'section'}>
-                    <img className='projetos' src={foto}></img>
-                    <div className={'info'}>
-                    <h4>hi</h4>
-                    <p>hdth nvdt yksx dxhnvd cyktdxh</p>
-                    </div>
-                </div>
-                <div className={'section'}>
-                    <img className='projetos' src={foto}></img>
+                    <img className='projetos' src={foto} alt={'an project exaple'}></img>
                     <div className={'info'}>
                         <h4>hi</h4>
                         <p>hdth nvdt yksx dxhnvd cyktdxh</p>
                     </div>
                 </div>
                 <div className={'section'}>
-                    <img className='projetos' src={foto}></img>
+                    <img className='projetos' src={foto} alt={'an project exaple'}></img>
                     <div className={'info'}>
-                    <h4>hi</h4>
-                    <p>hdth nvdt yksx dxhnvd cyktdxh</p>
+                        <h4>hi</h4>
+                        <p>hdth nvdt yksx dxhnvd cyktdxh</p>
                     </div>
                 </div>
+                <div className={'section'}>
+                    <img className='projetos' src={foto} alt={'an project exaple'}></img>
+                    <div className={'info'}>
+                        <h4>hi</h4>
+                        <p>hdth nvdt yksx dxhnvd cyktdxh</p>
+                    </div>
+                </div>
+                <div className={'section'}>
+                    <img className='projetos' src={foto} alt={'an project exaple'}></img>
+                    <div className={'info'}>
+                        <h4>hi</h4>
+                        <p>hdth nvdt yksx dxhnvd cyktdxh</p>
+                    </div>
+                </div>
+                
             </div>
         </div>
     )

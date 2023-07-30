@@ -6,13 +6,18 @@
     
 }
 .project{
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
     justify-content: space-evenly;
     border-radius: 20px;
 }
 .section{
-    width: 350px;
-    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 500px;
+    height: 300px;
     padding: 50px 0 0 0;
     color: white;
     background-color: rgba(0, 0, 0, 0.559);
@@ -24,14 +29,6 @@ h3{
 }
 .projetos{
     width: 100px;
-}
-.project :nth-child(n){
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-.info{
-    flex-direction: column;
 }
 .arrow{
     float: left;
