@@ -1,4 +1,4 @@
-import foto from './img/nana osaki icon.jpg';
+import foto from './img/me.jpeg';
 import './Intro.css';
 import { ImHtmlFive } from "react-icons/im";
 import { IoLogoJavascript } from "react-icons/io";
