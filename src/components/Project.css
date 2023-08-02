@@ -15,21 +15,22 @@
 .section{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     width: 100%;
     height: 300px;
     padding: 50px 0 0 0;
-    color: white;
-    background-color: rgba(15, 6, 6, 0.272);
+    color: black;
     border-radius: 20px;
+    border: 1px solid black;
 }
 h3{
     float: left;
     margin-left: 20px;
 }
 .projetos{
-    width: 30%;
+    width: 55%;
     height: 80%;
+    border-radius: 50%;
 }
 .arrow{
     float: left;
