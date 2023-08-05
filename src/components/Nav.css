@@ -23,6 +23,7 @@
 }
 .nav-bar >a:hover{
     border-bottom: 3px solid black;
+    transition: .5s;
 }
 .VscMenu{
     display: none;

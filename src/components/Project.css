@@ -1,9 +1,9 @@
 .conteiner{
     width: auto;
-    border-radius: 20px;
     margin: 20px;
     padding: 20px 0;
-    
+        background-image: url(./img/background-square.jpeg);
+
 }
 .project{
     display: grid;
@@ -20,12 +20,17 @@
     height: 300px;
     padding: 50px 0 0 0;
     color: black;
+    background-color: white;
     border-radius: 20px;
     border: 1px solid black;
 }
 h3{
     float: left;
-    margin-left: 20px;
+    margin-left: 40px;
+    font-size: x-large;
+}
+hr{
+    visibility: hidden;
 }
 .projetos{
     width: 55%;
@@ -34,7 +39,8 @@ h3{
 }
 .arrow{
     float: left;
-    margin: 25px 10px;
+    margin: 30px 10px;
+    font-size: x-large;
 }
 @media (max-width:800px){
     .project{

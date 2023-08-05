@@ -5,7 +5,7 @@ import { PiArrowElbowRightDownBold } from "react-icons/pi";
 function Project(){
     return(
         <div className={'conteiner'}>
-            <h3>Projects</h3>
+            <h3>PROJETOS</h3>
             <PiArrowElbowRightDownBold className={'arrow'}/>
             <hr></hr>
             <div className={'project'} id={'projetos.id'}>
