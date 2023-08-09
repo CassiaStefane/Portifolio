@@ -2,8 +2,8 @@
     width: auto;
     margin: 20px;
     padding: 20px 0;
-        background-image: url(./img/background-square.jpeg);
-
+    background-image: url(./img/background-project.jpg);
+    
 }
 .project{
     display: grid;
@@ -28,6 +28,8 @@ h3{
     float: left;
     margin-left: 40px;
     font-size: x-large;
+    background-color: white;
+    padding: 10px 20px;
 }
 hr{
     visibility: hidden;
@@ -39,8 +41,10 @@ hr{
 }
 .arrow{
     float: left;
-    margin: 30px 10px;
+    margin: 25px 0;
     font-size: x-large;
+    background-color: white;
+    padding: 10px 10px 15px 0;
 }
 @media (max-width:800px){
     .project{
