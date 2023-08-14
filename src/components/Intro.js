@@ -1,4 +1,4 @@
-import foto from './img/dsign from pinterest.jpeg';
+import foto from './img/bg-intro.png';
 import './Intro.css';
 import { ImHtmlFive } from "react-icons/im";
 import { IoLogoJavascript } from "react-icons/io";

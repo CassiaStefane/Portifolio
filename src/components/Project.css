@@ -30,6 +30,10 @@ h3{
     background-color: white;
     padding: 10px 20px;
 }
+.title{
+    border: 1px solid black;
+    border-right: white;
+}
 hr{
     visibility: hidden;
 }
@@ -40,10 +44,12 @@ hr{
 }
 .arrow{
     float: left;
-    margin: 25px 0;
+    margin: 24px 0;
     font-size: x-large;
     background-color: white;
     padding: 10px 10px 15px 0;
+    border: 1px solid black;
+    border-left: white;
 }
 @media (max-width:800px){
     .project{
