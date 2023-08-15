@@ -1,4 +1,5 @@
 import './Nav.css';
+import logo from './img/logo.jpeg';
 import { VscMenu } from "react-icons/vsc";
 import { VscClose } from "react-icons/vsc";
 
@@ -14,7 +15,7 @@ function Nav(){
     return(
         <div className={'Nav'}>
              <div className={"logo"}>
-                <h1>LOGO</h1>
+                <img src={logo} alt={'logo'} className={'portfolio'}/>
             </div>
             <div className={'VscMenu'} onClick={handleClick}>
                 <VscMenu/>

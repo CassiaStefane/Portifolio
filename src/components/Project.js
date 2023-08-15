@@ -10,9 +10,9 @@ function Project(){
             <h3 className={'title'}>PROJETOS</h3>
             <PiArrowElbowRightDownBold className={'arrow'}/>
             <hr></hr>
-             <Carousel>
              <div className={'project'} id={'projetos.id'}>
-             <Carousel.Item>
+             <Carousel>
+                <Carousel.Item>
                 <div className={'section'}>
                     <img className='projetos' src={foto} alt={'an project exaple'}></img>
                     <div className={'info'}>
@@ -48,8 +48,8 @@ function Project(){
                     </div>
                 </div>
             </Carousel.Item>
+            </Carousel>
             </div>
-             </Carousel>
         </div>
     )
 }

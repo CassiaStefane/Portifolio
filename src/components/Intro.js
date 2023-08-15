@@ -13,7 +13,7 @@ function Header(){
                 <h3>Web developer</h3>
                 <hr></hr>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                <div className={'icons'}>
+                <div className={'icons-intro'}>
                 <ImHtmlFive/>
                 <IoLogoCss3/>
                 <IoLogoJavascript/>

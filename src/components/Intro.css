@@ -11,6 +11,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     max-width: 600px;
+    box-sizing: content-box;
 }
 .foto{
     width: 550px;
@@ -19,20 +20,20 @@
 hr{
     width: 100%;
 }
-.icons{
+.icons-intro{
     display: flex;
     width: 100%;
     justify-content: flex-end;
     align-items: flex-end;
     font-size: xx-large;
 }
-.icons :nth-child(n){
+.icons-intro :nth-child(n){
     border: 1.5px solid black;
     border-radius: 30px;
     padding: 10px;
     margin: 5px;
 }
-.icons :nth-child(n):hover{
+.icons-intro :nth-child(n):hover{
     transition: 0.5s;
     border: 1px solid green;
     color: green;
