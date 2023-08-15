@@ -32,6 +32,7 @@ hr{
     border-radius: 30px;
     padding: 10px;
     margin: 5px;
+    box-sizing: content-box;
 }
 .icons-intro :nth-child(n):hover{
     transition: 0.5s;
@@ -47,6 +48,7 @@ hr{
     border-radius: 10px;
     text-decoration: none;
     margin: 50px 30px;
+    box-sizing: content-box;
 }
 @media (max-width:800px){
     .foto{
