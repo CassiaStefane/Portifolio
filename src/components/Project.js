@@ -7,9 +7,10 @@ import { PiArrowElbowRightDownBold } from "react-icons/pi";
 function Project(){
     return(
         <div className={'conteiner'}>
-            <h3 className={'title'}>PROJETOS</h3>
-            <PiArrowElbowRightDownBold className={'arrow'}/>
-            <hr></hr>
+            <div className={'title-projeto'}>
+                <h3 className={'title'}>PROJETOS</h3>
+                <PiArrowElbowRightDownBold className={'arrow'}/>
+            </div>
              <div className={'project'} id={'projetos.id'}>
              <Carousel>
                 <Carousel.Item>
