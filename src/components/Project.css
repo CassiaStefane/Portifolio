@@ -10,8 +10,13 @@
     background-image: url(./img/background-wave.jpeg);
 }
 .title-projeto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: 1px solid black;
     background-color: white;
+    width: 200px;
+    height: 40px;
 }
 .project{
     display: flex;
@@ -24,20 +29,16 @@
 }
 .section{
     display: flex;
-    width: 100%;
+    width: 700px;
     height: 300px;
     padding: 50px 0 0 0;
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: white;
     border-radius: 20px;
-    border: 1px solid white;
+    border: 1px solid black;
 }
 h3{
-    float: left;
-    margin-left: 40px;
-    font-size: x-large;
-    background-color: white;
-    padding: 10px 20px;
+    padding-top: 10px;
 }
 hr{
     visibility: hidden;
@@ -46,12 +47,12 @@ hr{
     width: 55%;
     height: 80%;
     border-radius: 50%;
+    padding: 10px;
 }
 .arrow{
     box-sizing: content-box;
-    float: left;
     font-size: x-large;
-    padding: 20px 10px 8px 0;
+    padding: 3px 0 0 8px;
 }
 @media (max-width:800px){
     .section{

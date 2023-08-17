@@ -12,7 +12,7 @@ function Project(){
                 <PiArrowElbowRightDownBold className={'arrow'}/>
             </div>
              <div className={'project'} id={'projetos.id'}>
-             <Carousel>
+             <Carousel variant='dark' hover='pause'>
                 <Carousel.Item>
                 <div className={'section'}>
                     <img className='projetos' src={foto} alt={'an project exaple'}></img>
