@@ -8,6 +8,7 @@
     padding: 20px 0;
     text-align: center;
     background-image: url(./img/background-wave.jpeg);
+    
 }
 .title-projeto{
     display: flex;
@@ -26,11 +27,12 @@
     border-radius: 20px;
     align-items: center;
     margin-top: 50px;
+    filter: drop-shadow(8px 8px 10px gray);
 }
 .section{
     display: flex;
     width: 700px;
-    height: 300px;
+    height: 500px;
     padding: 50px 0 0 0;
     color: black;
     background-color: white;
