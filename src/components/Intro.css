@@ -52,7 +52,6 @@ hr{
 }
 @media (max-width:800px){
     .foto{
-        margin-top: 8%;
         margin-right: 8%;
         max-width: 40%;
         max-height: 350px;

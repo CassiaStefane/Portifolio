@@ -37,6 +37,10 @@
     display: none;
 }
 @media (max-width:640px){
+    .Nav{
+        display: flex;
+        justify-content: flex-start;
+    }
     .nav-bar > a{
         margin:15px;
     }
