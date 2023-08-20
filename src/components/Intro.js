@@ -1,4 +1,4 @@
-import foto from './img/bg-intro.png';
+import foto from './img/intro-img.jpeg';
 import './Intro.css';
 import { ImHtmlFive } from "react-icons/im";
 import { IoLogoJavascript } from "react-icons/io";
