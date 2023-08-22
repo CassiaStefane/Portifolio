@@ -39,7 +39,7 @@
 @media (max-width:640px){
     .Nav{
         display: flex;
-        justify-content: flex-start;
+        justify-content: space-between;
     }
     .nav-bar > a{
         margin:15px;
@@ -54,6 +54,9 @@
         width: 650px;
         height: 200px;
     }
+    .nav-bar >a:hover{
+        border-bottom: none;
+    }
     #display{
         display: none;
     }
@@ -63,10 +66,10 @@
         font-size: large;
     }
     .VscClose{
+        position: absolute;
         display: flex;
         margin-left: 25em;
         margin-top: 15px;
         font-size: x-large;
-        background-color: black;
     }
 }
