@@ -1,0 +1,29 @@
+.about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 30px;
+}
+.me{
+    padding: 10px;
+    width: 150px;
+}
+.idioma{
+    display:flex ;
+    flex-direction: row;
+    float: right;
+}
+.idioma > h4{
+    padding-top: 20px;
+}
+.idioma > div > h5{
+    width: 40px;
+    font-size: small;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 50px;
+}
