@@ -1,29 +1,50 @@
 .about{
+    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     border: 2px solid black;
     border-radius: 20px;
-    margin: 10px;
+    margin: 10%;
     padding: 30px;
 }
 .me{
+    position: absolute;
+    right: 0;
+    top: -50px;
     padding: 10px;
     width: 150px;
 }
+.about-info > h1{
+    margin-bottom: 50px;
+    margin-top: -50px;
+}
 .idioma{
-    display:flex ;
+    position: absolute;
+    display: flex;
     flex-direction: row;
-    float: right;
+    justify-content: space-between;
+    float: left;
+    width: 210px;
+    height: 80px;
+    border: 1.5px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: white;
 }
-.idioma > h4{
-    padding-top: 20px;
+.idioma >div{
+    display: flex;
 }
-.idioma > div > h5{
+.idioma > h5{
+    font-size: medium;
+    padding-top: 10px;
+}
+.idioma > div > h6{
     width: 40px;
+    height: 40px;
     font-size: small;
     color: white;
     background-color: black;
-    padding: 10px;
-    border-radius: 50px;
+    padding-top: 10px;
+    border-radius: 20px;
 }

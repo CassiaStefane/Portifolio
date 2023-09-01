@@ -13,10 +13,10 @@ function About(){
                         I am an web developer and  student  who is ready to work hard.
                     </p>
                     <div className='idioma'>
-                        <h4>language</h4>
+                        <h5>language :</h5>
                         <div>
-                            <h5>PT</h5>
-                            <h5>ENG</h5>
+                            <h6>PT</h6>
+                            <h6>ENG</h6>
                         </div>
                     </div>
             </div>
